@@ -1,7 +1,21 @@
 import './bootstrap';
 
-import Alpine from 'alpinejs';
+let scrollContainer = document.querySelector(".imageGallery");
+let rwnbtn = document.getElementById("rwnbtn");
+let fwbtn = document.getElementById("fwbtn");
 
-window.Alpine = Alpine;
+scrollContainer.addEventListener("wheel", (evt) => {
+    evt.preventDefault();
+    scrollContainer.scrollLeft += evt.deltaY;
+    scrollContainer.style.scrollBehavior = "auto"
+});
 
-Alpine.start();
+fwbtn.addEventListener("click", ()=>{
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft += 1200;
+})
+
+rwnbtn.addEventListener("click", ()=>{
+    scrollContainer.style.scrollBehavior = "smooth";
+    scrollContainer.scrollLeft -= 1200;
+})

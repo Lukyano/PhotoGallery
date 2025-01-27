@@ -1,28 +1,48 @@
 *{
     box-sizing: border-box;
-    margin: auto;
-    background-color: black;
+    margin: 0;
+    background-color: #191919;
     color: white;
 }
-
-.red{
-    background-color: red;
+.imageGallery{
+    width: 1200px;
+    display: flex;
+    overflow-x: scroll;
 }
 
-.blue{
-    color: white;
-    background-color: blue;
+.imageGallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    align-items: center;
+    padding: 10px;
+    flex: none;
 }
 
-.green{
-    background-color: green;
+.imageGallery div img{
+    width: 100%;
+    transition: transform 0.5s;
 }
 
-.yellow{
-    background-color: yellow;
+.imageGallery::-webkit-scrollbar{
+    display: none;
 }
 
-.black{
-    color: white;
-    background-color: black;
+.imageGallery-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+
+#fwbtn, #rwnbtn{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.imageGallery div img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
