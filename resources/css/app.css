@@ -1,9 +1,16 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    background-color: #191919;
-    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+:root{
+    --blue: #0040ff;
+    --yellow: #b0b046;
+    --maincolor: #191919;
+    --orange: rgb(158, 122, 51);
+}
+
 .imageGallery{
     width: 1200px;
     display: flex;
@@ -45,4 +52,57 @@
 .imageGallery div img:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.red{
+    background-color: var(--yellow);
+}
+
+.mainColor{
+    background-color: var(--maincolor);
+}
+
+.orange{
+    background-color: var(--orange);
+}
+
+.headerList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.z-3{
+    z-index: 3;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.pHeader{
+    padding: 10px;
+}
+
+.headerStyle{
+    text-decoration: none;
+    color: var(--maincolor);
+}
+
+.headerStyle:hover{
+    color: var(--orange);
+}
+
+.footList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footStyle:hover{
+    color: var(--yellow);
+}
+
+.m-10{
+    margin: 10px;
 }
