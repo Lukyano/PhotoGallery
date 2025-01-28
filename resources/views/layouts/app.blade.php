@@ -15,6 +15,12 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
-        @yield('content')
+        <div class="mainColor">
+        @include('albums.header')
+        <main class="">
+            @yield('content')
+        </main>
+        @include('albums.footer')
+        </div>
     </body>
 </html>
