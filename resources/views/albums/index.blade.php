@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>PhotoGallery</h1>
 <div class="imageGallery-wrap">
     <img src="/images/rewind.png" id="rwnbtn">
     <div class="imageGallery">
