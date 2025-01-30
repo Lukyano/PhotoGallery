@@ -7,12 +7,21 @@
         <div>
             <span><img src="/images/Image-1.jpg"></span>
             <span><img src="/images/Image-2.jpg"></span>
-            <span><img src="/images/Image-3.jpeg"></span>
+            <span><img src="/images/Image-3.jpg"></span>
+            
         </div>
         <div>
-            <span><img src="/images/Image-4.jpeg"></span>
+            <span><img src="/images/Image-4.jpg"></span>
             <span><img src="/images/Image-5.jpg"></span>
-            <span><img src="/images/Image-6.jpeg"></span>
+            <span><img src="/images/Image-6.jpeg"></span>  
+        </div>
+        <div>
+            <span><img src="/images/Image-7.jpg"></span>
+            <span><img src="/images/Image-8.jpg"></span>
+            <span><img src="/images/Image-9.jpg"></span>
+        </div>
+        <div>
+            <span><img src="/images/Image-10.png"></span>
         </div>
     </div>
     <img src="/images/forward.png" id="fwbtn">
