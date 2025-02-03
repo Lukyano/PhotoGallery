@@ -6,7 +6,6 @@
         "dev": "vite"
     },
     "devDependencies": {
-        "engines": { "node": "18.x" },
         "@tailwindcss/forms": "^0.5.2",
         "alpinejs": "^3.4.2",
         "autoprefixer": "^10.4.2",
@@ -18,7 +17,7 @@
         "vite": "^6.0"
     },
     "dependencies": {
-        "node": "^23.7.0"
+        "node": "18.x"
     }
     
 }
